@@ -61,3 +61,13 @@ Prompts are designed to be  **user-controlled** , meaning they are exposed from 
 }
 
 ```
+
+how to use:
+git clone <repo_path>
+cd <repo>
+安装 uv
+https://docs.astral.sh/uv/getting-started/installation/
+uv run script.py
+上面的指令会自动安装对应的环境到（./.venv）当前文件夹下，实际上在cline中配置mcp server的时候会自己运行uv相关的内容，如果没有环境，会自动根据项目下的 
+
+
